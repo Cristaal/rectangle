@@ -1,18 +1,18 @@
 class Rectangle
-  define_method(:initialize) do |length, width|
+  def initialize(length, width)
     @length = length
     @width = width
   end
 
-  define_method(:length) do
+  def length
     @length
   end
 
-  define_method(:width) do
+  def width
     @width
   end
 
-  define_method(:square?) do
+  def square?
     @length.eql?(@width)
   end
 end
