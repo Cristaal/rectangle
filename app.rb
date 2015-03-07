@@ -4,11 +4,11 @@ also_reload 'lib/**/*.rb'
 require './lib/rectangle'
 
 
-get('/') do
+get '/' do
   erb(:index)
 end
 
-get('/square') do
+get'/square' do
   length = params.fetch('length')
   width = params.fetch('width')
   @rectangle = Rectangle.new(length, width)
