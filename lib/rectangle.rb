@@ -13,6 +13,6 @@ class Rectangle
   end
 
   def square?
-    @length.eql?(@width)
+    @length == @width
   end
 end
