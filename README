@@ -1,0 +1,18 @@
+Rectangle is a ruby exercise where one can input the length and width of a shape and see if it is a square or a rectangle.
+
+Written using Ruby 2.1.5
+
+Run '$ gem install bundler'
+
+Run '$ bundle' in project directory to install necessary gems
+
+Launch Sinatra app with '$ ruby app.rb'
+
+Go to https://localhost:4567/
+
+
+2015 Crystal Contreras-Grossman
+
+Known bugs: None at this juncture.
+
+MIT License
