@@ -12,6 +12,11 @@ describe(Rectangle) do
       test_rectangle = Rectangle.new(30, 30)
       expect(test_rectangle.square?()).to(eq(true))
     end
+
+    it("returns false if any of the sides are 0") do
+      test_rectangle = Rectangle.new(0,10)
+      expect(test_rectangle.square?()).to(eq(false))
+    end
   end
 
     describe("#length") do
